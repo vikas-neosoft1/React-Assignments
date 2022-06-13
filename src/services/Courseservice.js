@@ -25,8 +25,8 @@ function getCourseById(id) {
 
  
 function getEnquires() {
-     return axios.get(`${EnQUrl}`);
+     return axios.get(`${EnQUrl}`)
 } 
- 
+
 
  export {getCoureses,addEnquiry,getEnquires, addCourse,getCourseById};
