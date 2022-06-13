@@ -1,5 +1,6 @@
 import axios from "axios";
  const URL = "http://localhost:3001/products/";
+ const tt ="test"; 
  
  function getAllProducts(){
       return axios.get(URL);
