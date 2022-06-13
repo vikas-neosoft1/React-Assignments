@@ -22,7 +22,7 @@ function getCourseById(id) {
      return axios.get(`${APIURL}${id}`);
 }
  
-fu 
+
  
 function getEnquires() {
      return axios.get(`${EnQUrl}`);
